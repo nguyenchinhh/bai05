@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .content {
+      background: #0057AD;
+      padding: 60px 30px;
+      border-radius: 9px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .content::before {
+      content: "";
+      display: block;
+      width: 120px;
+      height: 120px;
+      background: #00000043;
+      border-radius: 50%;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+
+    .content::after {
+      content: "";
+      display: block;
+      width: 240px;
+      height: 240px;
+      background: #0000001a;
+      border-radius: 50%;
+      position: absolute;
+      right: -50px;
+      bottom: -50px;
+    } 
+
+    .content .inner-content {
+      color: white;
+      position: relative;
+      z-index: 1;
+    }
+
+    .content .inner-content::first-letter {
+      font-size: 40px;
+    }
+
+    .content .inner-content::first-line {
+      text-transform: uppercase;
+    }
+  </style>
+
+  <div class="content">
+    <div class="inner-content">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique error eveniet corrupti est impedit, id cum eaque, laborum asperiores omnis voluptate nobis blanditiis, atque odio animi corporis unde aspernatur iusto.
+      Aliquam sit voluptate perferendis placeat minima distinctio voluptatum repellat soluta ut quia fugiat eum doloremque, expedita omnis. Excepturi, velit nisi. Soluta omnis voluptate veniam dolores tenetur dolore adipisci vel autem.
+      Vero voluptatem exercitationem ipsum officiis. Quo cupiditate itaque aperiam quis! Dolor nemo beatae dolores eum molestias quae consequatur id ea provident harum nulla, excepturi repudiandae quis, soluta itaque. Doloribus, natus.
+      Modi, nemo ipsum, earum perferendis doloribus quo amet fugiat iusto minima eaque sapiente vel necessitatibus et repellendus doloremque, quidem illo aut laudantium aspernatur iste excepturi nesciunt soluta? Cumque, tenetur id.
+      Consectetur sit iusto quae harum accusamus fuga porro, ducimus nesciunt, quibusdam, eius doloremque! Ipsum voluptatem nesciunt ab nam labore cum, numquam vel quod tempore voluptas quasi accusamus error rem eveniet?
+    </div>
+  </div>
+
+
+</body>
+</html>

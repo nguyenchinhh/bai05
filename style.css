@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.color-red {
+  color: red;
+}
+
+#color-green {
+  color: green;
+}
+
+.the_div {
+  width: 200px;
+  height: 100px;
+  background: green;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  background-image: url(images.jpg);
+  background-attachment: fixed;
+}
+
+.box-model1 {
+  border: 5px solid #000;
+  padding: 15px;
+  background: green;
+  text-align: center;
+  color: white;
+}
+
+.box-model2 {
+  border: 8px dashed #ddd;
+  margin-top: 20px;
+  padding: 15px;
+  background: red;
+  background-clip: padding-box;
+  color: white;
+  text-align: right;
+}
+
+.fonts {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+
+/* Bài tập về list  */
+
+/* table, tr, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 200px;
+  background: #ddd;
+  
+}
+
+table td:hover {
+  background-color: blue;
+}
+
+tr, td {
+  padding: 10px;
+}
+
+
+.icon i1 {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+  
+}
+.icon i1:hover{
+  background-color: red;
+}
+
+.icon i2 {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+  padding-left: 20px;
+  
+}
+.icon i2:hover{
+  background-color: red;
+}
+
+.icon i3 {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background-color: #ddd;
+  border-radius: 60%;
+  padding-left: 20px;
+
+}
+.icon i3:hover{
+  background-color: red;
+}
+
+.icon i4 {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background-color: #ddd;
+  border-radius: 60%;
+  padding-left: 20px;
+ 
+}
+.icon i4:hover{
+  background-color: red;
+} */
+/* Hết list  */
+
+
+
+
